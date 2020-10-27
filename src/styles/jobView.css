@@ -1,0 +1,278 @@
+.mainContainer{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 10%;
+    align-items: center;
+    background-color: #f2f2f2;
+    float: left;
+}
+.listContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    border:1px solid #eeeeee;
+    box-shadow: 2px 3px 10px #d3d3d3;
+    background-color: white;
+    margin:5px;
+    padding:20px;
+    transition: transform .15s;
+
+}
+.listContainer:hover{
+    border:1px solid rgb(129, 129, 141);
+    /* background-color: #f6f6f6; */
+    transform: scale(1.01); 
+    /* transform: border 2px solid #919191 ease; */
+
+ }
+ 
+.jobDetails{
+    width: 40%;
+    margin-right:10%;
+    min-height: 90vh;
+    background-color: #ffff;
+    position: fixed;
+    /* float: right; */
+    right: 5px;
+    bottom: 0;
+    top:7vh;
+    /* word-wrap: break-word; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-overflow: ellipsis; 
+    border:2px solid #ebebeb
+
+}
+.jobContainer{
+    width: 90%;
+    height:90%;
+    margin:auto;
+}
+.jobContainer p{
+    overflow-wrap: break-word!important;
+    padding:5px
+
+}
+
+.title{
+    font-size:13px;
+    font-weight: 500;
+}
+.application{
+    width:100%;
+    background-color: #0b5dbd;
+    color: #ffff;
+    height:45px;
+    padding: 0;
+    /* margin-left:5px; */
+    border:none !important;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top:0;
+    right:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border:1px solid #8f8d9d;
+    /* margin-left: 0; */
+}
+.application img{
+    height: 12px;
+    width: auto;
+    padding-left: 15px;
+}
+.application:hover{
+    background-color: #0c6bd8;
+}
+.ll{
+    position: relative;
+    height: 100%;
+    width:100%;
+}
+.rowButton{
+    display: flex;
+    flex-direction: row;
+    width:fit-content;
+    align-items: center;
+    width:100%
+}
+.containerRows{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    background-color: white;
+    /* margin:5px; */
+}
+
+.listRow-J{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width:100%
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    /* width:100%; */
+    /* justify-content: center; */
+    align-items: center;
+}
+.picContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    /* width:20%; */
+    height:fit-content;
+    margin-right: 10px;
+}
+.listHeading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+    height: fit-content;
+    cursor: default;
+}
+.listHeading h3{
+    text-align: left;
+    width: 100%;
+    font-size: .8rem;
+    font-weight: 700;
+    color: rgb(51, 54, 59);
+}
+.listHeading p{
+    font-size: 12px;
+    margin:5px;
+}
+.listHeading img{
+    width:20px;
+    height:auto;
+    /* margin:5px */
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #a0a0a0;
+    opacity: 1; /* Firefox */
+  }
+.dpL{
+    width: auto!important;
+    height: 150px!important;
+    border-radius: 50%;
+}
+.certView{
+    width:90%!important;
+    height:auto;
+    margin: auto;
+}
+.ReactModal__Content--after-open{
+    background-color: #ffff!important;
+    width:90%;
+    padding: 0!important;
+    left:10px!important;
+    right:10px!important;
+    top:10vh!important;
+    bottom:20px!important;
+}
+.ReactModal_Overlay{
+    background-color: rgba(255, 255, 255, 0.487)!important;
+}
+.certHeading{
+    font-size: 1rem;
+    padding:5px;
+    /* margin-top:35px; */
+}
+.jobTitle{
+    margin-top:50px
+}
+
+.certContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    height: fit-content;
+    margin:20px 5px 20px 5px;
+
+    border:1px solid #eeeeee;
+    box-shadow: 2px 3px 10px #d3d3d3;
+    background-color: white;
+}
+.aboutContainer{
+    width:100%;
+    height: fit-content;
+}
+.jobRow{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    /* justify-content: center; */
+    align-items: center;
+    /* Renamed property in CSS3 draft spec */
+
+}
+
+.certImg{
+    display: flex;
+    justify-content: center;
+}
+
+.profileContainer{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    /* border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e0e0e0; */
+
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.jobDetails::-webkit-scrollbar{
+    display: none;
+}
+
+.viewApp{
+    width:200px;
+    background-color: #0b5dbd;
+    color:white;
+    height:35px;
+    padding: 0;
+    margin: 0;
+    border:none !important;
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    position: sticky;
+    right:0
+}
+
+.active{
+    color:#224368
+}
+
+.listRow-Cp{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,62 @@
+
+.jobAdd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width:450px;
+    height:fit-content;
+    margin:50px;
+    border:2px solid white;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px #d3d3d3;
+    /* margin-top: 30px; */
+}
+.containerAdd{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    height:100%;
+    padding: 30px;
+}
+.containerAdd textarea{
+    background-color: #e1e4ea;
+    /* border-color: #e1e4ea;
+    border-style: solid; */
+    border:none;
+    width: 100%;
+    min-height:200px;
+    margin: 0;
+    padding: 5px!important;
+}
+.containerAdd button{
+    width:100%;
+    background-color: #0b5dbd;
+    color:white;
+    height:40px;
+    padding: 0;
+    margin: 0;
+    border:none !important;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.row{
+    padding-top:2px!important
+}
+.row input{
+    padding:5px!important;
+    height:35px!important
+}
+.jobAbt{
+    width:95%;
+    padding: 5%;
+    background-color: #e1e4ea;
+    min-height: 250px;
+    border: none;
+}
+
+

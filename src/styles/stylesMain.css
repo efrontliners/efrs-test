@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+    width:100vw;
+}
+#root{
+    width:100vw!important;
+    height:100vh!important;
+    background-color: #f8f8f8;
+
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4 {
+    font-family: 'Commissioner', sans-serif;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+}
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+.main{ 
+    animation: fadeInAnimation ease 0.5s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+
+.main{
+    height: 93vh;
+    background-color: #f8f8f8;
+    display: flex;
+    /* padding-top:6vh; */
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    overflow-y: auto;
+    /* overflow-x: hidden!important; */
+    /* padding:50px 0px 50px 0px;  */
+    flex-wrap: wrap;
+}
+/* * {
+    scrollbar-width: thin;
+    scrollbar-color: blue orange;
+  }
+   */
+  /* Works on Chrome/Edge/Safari */
+  *::-webkit-scrollbar {
+      display: none;  
+    }
+
+  /* *::-webkit-scrollbar-track {
+    background: rgb(0, 0, 73);
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    border: 10px solid #d3d3d3;
+  } */
+p{
+    color: rgb(51, 54, 59);
+    font-weight: 400;
+    font-size: 0.9rem !important;
+}
+h1,h2,h3,h4{
+    color:black;
+}
+.startup{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top:6vh; */
+    width: 100%;
+    overflow-y: hidden;
+    /* overflow-x: hidden!important; */
+    /* padding:50px 0px 50px 0px;  */
+    /* flex-wrap: wrap; */
+}
+.startupTab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:350px;
+    background-color: #0b5dbd;
+    width:300px;
+    border:2px solid #0b5dbd;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px #d3d3d3;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+.startupTab img{
+    width: 30%;
+    height: auto;
+}
+.startupTab h2{
+    color: white;
+    margin: 20px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:350px;
+    background-color: white;
+    width:300px;
+    border:2px solid white;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px #d3d3d3;
+    margin: auto;
+    /* overflow-y: hidden; */
+}
+.containerLogin{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width:85%;
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+}
+.containerLogin button{
+    width:100%;
+    background-color: #0b5dbd;
+    color:white;
+    height:40px;
+    padding: 0;
+    margin: 0;
+    border:none !important;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.row h3{
+    text-align: start;
+    color: #7B8B8C;
+    font-size: 14px;
+    font-weight: 400;
+}
+.container{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    /* width:30%; */
+    /* border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e0e0e0; */
+
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: #f2f2f2;
+
+}
+.jobAdd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width:450px;
+    height:fit-content;
+    margin:50px;
+    border:2px solid white;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px #d3d3d3;
+    /* margin-top: 30px; */
+}
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    height:100%;
+    padding: 30px;
+}
+.containerForm textarea{
+    background-color: #e1e4ea;
+    /* border-color: #e1e4ea;
+    border-style: solid; */
+    border:none;
+    width: 100%;
+    min-height:200px;
+    margin: 0;
+    padding: 0;
+}
+.containerForm button{
+    width:100%;
+    background-color: #0b5dbd;
+    color:white;
+    height:40px;
+    padding: 0;
+    margin: 0;
+    border:none !important;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.row input{
+    background-color: #e1e4ea;
+    /* border-color: #e1e4ea;
+    border-style: solid; */
+    border:none;
+    width: 100%;
+    height: 38px;
+    margin: 0;
+    padding: 5;
+    outline: none;
+}
+.rchome{
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    justify-content: center;
+    align-items: center;
+}
+.rcSelect{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    height:300px;
+    background-color: #ffff;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.rcSelect img{
+    width:60px;
+    height:auto
+}
+.rcSelect h3{
+    color: #dddddd;
+    font-size: 18px;
+    padding:15px
+}
+.rcSelect:hover{
+    background-color: #0b5dbd;
+}
+.listContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 80px;
+    border:1px solid #eeeeee;
+    box-shadow: 2px 3px 10px #d3d3d3;
+    background-color: white;
+    margin:5px;
+    padding:20px;
+
+}
+
+
+.title{
+    font-size:13px;
+    font-weight: 500;
+}
+.button{
+    width:100%;
+    background-color: #0b5dbd;
+    color:white;
+    height:35px;
+    padding: 0;
+    margin: 0;
+    border:none !important;
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.rowButton{
+    display: flex;
+    flex-direction: row;
+    width:fit-content;
+    align-items: center;
+    width:100%
+}
+.containerRows{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    background-color: white;
+    /* margin:5px; */
+}
+.listRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width:100%
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    /* width:100%; */
+    /* justify-content: center; */
+    justify-content: flex-start!important;
+}
+.containerLogin .row{
+    width: 100%!important;
+}
+.picContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    /* width:20%; */
+    height:fit-content;
+    margin-right: 10px;
+}
+.listHeading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+    height: fit-content;
+}
+
+.listHeading p{
+    font-size: 12px;
+    margin:5px;
+}
+.listHeading img{
+    width:20px;
+    height:auto;
+    /* margin:5px */
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #a0a0a0;
+    opacity: 1; /* Firefox */
+  }
+.dp{
+    width: auto!important;
+    height: 70px!important;
+    border-radius: 50%;
+}
+.certView{
+    width:90%!important;
+    height:auto;
+    margin: auto;
+}
+/* .ReactModal__Content--after-open{
+    background-color: #f2f2f2!important;
+} */
+.certHeading{
+    font-size: 1rem;
+    padding:5px
+}
+/* .ReactModal__Content--after-open .certPara{
+    font-size: 1.5!important;
+    padding:5px
+} */
+.certContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    height: fit-content;
+    margin:20px 5px 20px 5px;
+
+    border:1px solid #eeeeee;
+    box-shadow: 2px 3px 10px #d3d3d3;
+    background-color: white;
+}
+.certRow{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    /* justify-content: center; */
+    align-items: center;
+}
+.certImg{
+    display: flex;
+    justify-content: center;
+}
+.certInfo{
+    /* display: flex;
+    justify-content: center; */
+}
+.profileContainer{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    /* border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e0e0e0; */
+
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: #f2f2f2;
+}

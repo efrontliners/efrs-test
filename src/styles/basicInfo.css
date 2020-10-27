@@ -1,0 +1,109 @@
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    60%{
+        opacity: 0.6;
+    }
+    100% { 
+        opacity: 1; 
+     } 
+} 
+.login-P{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+    background-color: white;
+    width:400px;
+    border:2px solid white;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px #d3d3d3;
+    margin: auto;
+    animation: fadeInAnimation ease 0.8s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+.basic-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+    background-color: white;
+    width:600px;
+    border:2px solid white;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px #d3d3d3;
+    margin: 30px auto;
+}
+.basic-info .row{
+    width:90%;
+    justify-content: flex-start;
+}
+.basic-info p{
+    padding-left: 8px;
+}
+.basic-info h5{
+   color: rgb(76, 76, 79)
+}
+.login-P form{
+  width:90%
+}
+.row{
+  margin:5px;
+}
+.row h4{
+    margin:10px 0px;
+}
+
+.row .input-P{
+    width:85%!important;
+    padding-left:10px ;
+    border:1px solid #949494;
+    background-color: #ffff;
+}
+.row label{
+    font-size: 12px;
+    width: 15%;
+    color: rgb(39, 39, 48);
+}
+#about{
+    min-height:200px;
+    border:1px solid #949494;
+    background-color: #ffff;
+    width: 100%;
+    padding: 10px;
+}
+
+.login-P ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000000;
+    opacity: 1; /* Firefox */
+}
+
+.infoColumn{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.photoColumn{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo{
+    width:50%;
+    height: auto;
+}
+
+.file{
+    color: #ffff;
+    background-color: #ffff!important;
+    width:90px!important;
+}
+
