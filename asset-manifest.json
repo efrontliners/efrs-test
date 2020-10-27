@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/efrontliners/efrs-test/static/css/main.66710925.chunk.css",
+    "main.js": "/efrontliners/efrs-test/static/js/main.cfaae613.chunk.js",
+    "main.js.map": "/efrontliners/efrs-test/static/js/main.cfaae613.chunk.js.map",
+    "runtime-main.js": "/efrontliners/efrs-test/static/js/runtime-main.6903a370.js",
+    "runtime-main.js.map": "/efrontliners/efrs-test/static/js/runtime-main.6903a370.js.map",
+    "static/js/2.ec714286.chunk.js": "/efrontliners/efrs-test/static/js/2.ec714286.chunk.js",
+    "static/js/2.ec714286.chunk.js.map": "/efrontliners/efrs-test/static/js/2.ec714286.chunk.js.map",
+    "index.html": "/efrontliners/efrs-test/index.html",
+    "precache-manifest.4c4b76d1b0f0da6fc333cac108715252.js": "/efrontliners/efrs-test/precache-manifest.4c4b76d1b0f0da6fc333cac108715252.js",
+    "service-worker.js": "/efrontliners/efrs-test/service-worker.js",
+    "static/css/main.66710925.chunk.css.map": "/efrontliners/efrs-test/static/css/main.66710925.chunk.css.map",
+    "static/js/2.ec714286.chunk.js.LICENSE.txt": "/efrontliners/efrs-test/static/js/2.ec714286.chunk.js.LICENSE.txt",
+    "static/media/add.png": "/efrontliners/efrs-test/static/media/add.f9977eab.png",
+    "static/media/addPhoto.png": "/efrontliners/efrs-test/static/media/addPhoto.304e9f8f.png",
+    "static/media/company.png": "/efrontliners/efrs-test/static/media/company.06f226fc.png",
+    "static/media/designation.png": "/efrontliners/efrs-test/static/media/designation.f233a79a.png",
+    "static/media/edit.png": "/efrontliners/efrs-test/static/media/edit.90179932.png",
+    "static/media/gender.png": "/efrontliners/efrs-test/static/media/gender.b8d582f5.png",
+    "static/media/jobs.png": "/efrontliners/efrs-test/static/media/jobs.e8597c1c.png",
+    "static/media/location.png": "/efrontliners/efrs-test/static/media/location.d7a5b482.png",
+    "static/media/logosplash.png": "/efrontliners/efrs-test/static/media/logosplash.2dbe209c.png",
+    "static/media/logout.png": "/efrontliners/efrs-test/static/media/logout.d8ae387c.png",
+    "static/media/office.png": "/efrontliners/efrs-test/static/media/office.30bf112a.png",
+    "static/media/phone.png": "/efrontliners/efrs-test/static/media/phone.47fcdee1.png",
+    "static/media/profession.png": "/efrontliners/efrs-test/static/media/profession.394f0bff.png",
+    "static/media/recruiter.png": "/efrontliners/efrs-test/static/media/recruiter.9b9326c3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6903a370.js",
+    "static/js/2.ec714286.chunk.js",
+    "static/css/main.66710925.chunk.css",
+    "static/js/main.cfaae613.chunk.js"
+  ]
+}
