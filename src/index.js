@@ -5,16 +5,16 @@ import '../src/styles/stylesMain.css'
 import '../src/styles/responsive.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {Router} from 'react-router-dom'
+import {Router,HashRouter} from 'react-router-dom'
 import axios from 'axios'
 import history from './components/history'
 axios.defaults.baseURL = 'https://efrs-demo.herokuapp.com';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router history={history}>
+    <HashRouter history={history}>
      <App />
-     </Router>
+     </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
